@@ -1,0 +1,18 @@
+body{background-color: #0655a5;border: 5px solid #041552;}
+header{background-color: #277ae7;}
+img{display: block;margin: auto;}
+button{background-color: white;border: 2px solid white;font-size: 30px;}
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;text-align: center;}
+p,h2{font-family: 'Courier New', Courier, monospace;font-size: 25px;}
+p,h3{font-family: Verdana, Tahoma, sans-serif;font-size: 20px;}
+h4{font-family: 'Times New Roman', serif;font-size: 15px;}
+h5{font-family: Helvetica;font-size: 10x;}
+#presentacion{background-color: #4169e1;}
+#contenido{background-color: #094c90;}
+footer{background-color: #12309e;}
+/* En pantallas de 640px de ancho o menos, usar dos columnas en lugar de cuatro */
+@media screen and (max-width: 640px) { 
+    .column {
+       width: 50%;
+   }
+}
